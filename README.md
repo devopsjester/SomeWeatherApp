@@ -7,8 +7,8 @@ This app will do the following, each feature updating whatever was previously th
 ### 1. Farenheit temperature for a US zipcode
 Copilot Prompt:
 ```
-Log the current temperature for a given zipcode using Serilog. Results will be in imperieal units. Zip code will be supplied as an argument in the CLI using System.CommandLine.
-```
+"Log the current temperature for a given zipcode using Serilog. Results will be in imperieal units. Zip code will be supplied as an argument in the CLI using System.CommandLine.
+"```
 Note that packages need to be added - ask Copilot.
 Note the code needs to be fixed - Copilot doesn't know it.
 
