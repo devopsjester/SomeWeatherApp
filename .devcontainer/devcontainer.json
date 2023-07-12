@@ -1,14 +1,14 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/dotnet:1": {}
+"features": {
   },
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-dotnettools.csharp",
         "GitHub.copilot",
-        "GitHub.copilot-chat"
+        "GitHub.copilot-chat",
+        "withfig.fig"
       ]
     }
   }
