@@ -3,7 +3,6 @@ using System.CommandLine;
 using System.CommandLine.Invocation;
 using Serilog;
 using Serilog.Events;
-using Serilog.Formatting.Compact;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
