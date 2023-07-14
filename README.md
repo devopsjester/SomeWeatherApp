@@ -10,7 +10,20 @@ Copilot Prompt:
 Log the current temperature for a given zipcode using Serilog. Results will be in imperieal units. Zip code will be supplied as an argument in the CLI using System.CommandLine.
 ```
 Note that packages need to be added - ask Copilot.
-Note the code needs to be fixed - Copilot doesn't know it.
+
+Note the code needs to be fixed - Copilot doesn't know it. We need to use 
+```
+using System.CommandLine.NamingConventionBinder;
+```
+instead of `System.CommandLine.Invocation`.
+
+Add the package:
+```
+dotnet add App/ package System.CommandLine.DragonFruit --prerelease
+```
+fix Serilog code: add `using Serilog.Formatting.Compactor`.
+
+Run `dotnet add App/ package Serilog.Formatting.Compact` from the CLI.
 
 ### 2. Farenheit temperature for a US city and state combo.
 Copilot Prompt:
